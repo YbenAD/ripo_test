@@ -1,2 +1,5 @@
-print("hello word")
-print("bonjour, je m appele Alex")
+def afficher_lignes(n):
+    for i in range(n):
+        print("_"*i)
+
+afficher_lignes(10)
